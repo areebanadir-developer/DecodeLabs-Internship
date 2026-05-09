@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone - Create Account</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <main class="page">
+        <div class="blob1"></div>
+        <div class="blob2"></div>
+        <div class="blob3"></div>
+
+        <div class="card">
+            <div class="left">
+                <span class="left-badge">Project 4 — Form Validation</span>
+                <h1>Join <span>FitZone</span><br>Today</h1>
+                <p>Start your fitness journey with Pakistan's #1 training platform.</p>
+                <ul class="left-stats">
+                    <li><span class="stat-dot"></span>500k+ Active Members</li>
+                    <li><span class="stat-dot"></span>200+ Workout Plans</li>
+                    <li><span class="stat-dot"></span>50+ Expert Trainers</li>
+                </ul>
+            </div>
+
+            <div class="right">
+
+                <h2>Create Account</h2>
+                <p class="form-sub">Fill in the details to get started</p>
+
+                <div class="success-msg" id="successBox">
+                    ✅ Account created! Welcome to FitZone!
+                </div>
+
+                <form id="registerForm" novalidate>
+
+                    <div class="row">
+                        <div class="field">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" placeholder="Areeba">
+                            <span class="err-msg" id="fnameErr">❌ Required!</span>
+                        </div>
+                        <div class="field">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" placeholder="Nadir">
+                            <span class="err-msg" id="lnameErr">❌ Required!</span>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="areeba@email.com">
+                        <span class="err-msg" id="emailErr">❌ Valid email required!</span>
+                    </div>
+
+                    <div class="field">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Min 8 chars, 1 uppercase, 1 number">
+                        <div class="bar-wrap">
+                            <div class="bar-fill" id="barFill"></div>
+                        </div>
+                        <span class="bar-label" id="barLabel"></span>
+                        <span class="err-msg" id="passErr">❌ Strong password required!</span>
+                    </div>
+                    <div class="field">
+                        <label for="confirm">Confirm Password</label>
+                        <input type="password" id="confirm" placeholder="Repeat password">
+                        <span class="err-msg" id="confirmErr">❌ Passwords do not match!</span>
+                    </div>
+
+                    <div class="terms">
+                        <input type="checkbox" id="terms">
+                        <label for="terms">I agree to <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Create Account →</button>
+
+                </form>
+                <p class="login-link">Already have an account? <a href="#">Sign in</a></p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
