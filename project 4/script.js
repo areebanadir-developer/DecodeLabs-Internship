@@ -63,7 +63,6 @@ form.addEventListener('submit', function (event) {
         isValid = false;
     }
 
-    // emailRegex yahan declare karo
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email.value)) {
         email.classList.add('is-error');
