@@ -51,7 +51,10 @@ Frontend Development Projects built during Industrial Training at DecodeLabs.
 - Confirm Password Match
 - event.preventDefault()
 - W3C Validated ✅
-  
+
+## 🛠️ Skills Learned
+- Form Validation & Regex
+- Glassmorphism CSS Design
 
 **👩‍💻 Developed by:** Areeba Nadir  
 **📍 Batch:** 2026  
