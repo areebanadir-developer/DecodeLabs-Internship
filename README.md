@@ -41,6 +41,18 @@ Frontend Development Projects built during Industrial Training at DecodeLabs.
 
 ---
 
+## 📁 Project 4 — Form Design & Validation
+**Tech:** HTML, CSS, JavaScript
+
+- FitZone Registration Form
+- Dark Glassmorphism Design
+- Real-time Password Strength Indicator
+- Email Regex Validation
+- Confirm Password Match
+- event.preventDefault()
+- W3C Validated ✅
+  
+
 **👩‍💻 Developed by:** Areeba Nadir  
 **📍 Batch:** 2026  
 **🏢 Powered by:** DecodeLabs
